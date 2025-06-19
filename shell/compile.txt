@@ -1,0 +1,10 @@
+g++ -std=c++17 -O3 -march=native -flto -o shell.bin shell.cpp
+
+
+git:
+git commit -m "{edit}"
+git push origin main
+
+
+
+

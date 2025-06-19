@@ -22,7 +22,7 @@ int main() {
             history.pop_front();  // remove oldest command to keep size 25
         }
         if (command == "help"){
-		std::cout << "exit - Exit\ncd - Change directory\ndirs - Command history\nhelp - Shows this message.\n";
+		std::cout << "echo - Repeats text\nexit - Exit\ncd - Change directory\ndirs - Command history\nhelp - Shows this message.\n";
 		erdp = 1;
 	}
 	if (command == "dirs") {
